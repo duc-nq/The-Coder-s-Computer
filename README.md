@@ -10,14 +10,14 @@
 4. **File and project management**: A good text editor should provide efficient file and project management capabilities. This may include features like file search, file navigation, project-wide search and replace, and integration with version control systems like Git.
 
 ## What do the following commands do?
-- `pwd`
-- `ls`
-- `cd`
-- `mkdir`
-- `touch`
+- `pwd`   : displays the present working directory
+- `ls`    : list the files and directories in the current directory.
+- `cd`    : cd stands for "change directory". It is used to navigate to another directory in the filesystem.
+- `mkdir` : mkdir stands for "make directory". It is used to create new directories in the filesystem.
+- `touch` : touch is used to create or update the access and modification times of a file.
 ## Can you explain what is happening in the following scenario if these commands and arguments are entered into the command line? (Arguments are extra instructions given to a command.)
-- `cd projects`
-- `mkdir new-project`
-- `touch new-project/newfile.md`
-- `cd ..`
-- `ls projects/new-project`
+- `cd projects` : change current directory into `projects`
+- `mkdir new-project` : make a new directory with name is `new-project`
+- `touch new-project/newfile.md`: make a new file newfile.md on new-project directory
+- `cd ..` : is used to go up one directory level in the filesystem.
+- `ls projects/new-project` : That command ls projects/new-project will list the contents of the projects/new-project directory.
